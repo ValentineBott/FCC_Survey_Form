@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    background-color: #f7bfff;
+    min-width: 320px;
+  }
+  
+  
+  .survey-container {
+    background-color: white;
+    width: 75%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+    padding-top: 20px;
+  }
+  
+  
+  
+  input, option {
+    margin: 10px;
+  }
+  
+  /* #survey-form {
+    width: 50%;
+    padding: 5% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% auto;
+    justify-content: center;
+    background-color: blue;
+  } */

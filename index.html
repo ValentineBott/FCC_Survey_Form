@@ -7,22 +7,31 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 id="title">Survey Title</h1>
+  <h1 id="title">Survey Title</h1>
+    <div class="survey-container">
     <p id="description">Description of Survey</p>
 
-    <form action="POST" id="survey-form">
-        <label for="name" id="name-label">
+    <form action="" id="survey-form">
+      <div class="labels">
+        <label for="name" id="name-label">Name*: </label>
+       </div>
+      <div class="rightCol">
             <input type="text" name="name" id="name" placeholder="Enter your name" required>
-        </label>
-
-        <label for="email" id="email-label">
+      </div>
+    <div class="labels">
+        <label for="email" id="email-label">Email*:</label>
+      </div>
+      <div class="rightCol">
             <input type="email" name="email" id="email" placeholder="Enter your email" required>
-        </label>
-
-        <label for="number" id="number-label">
-            <input type="number" name="number" id="number" min="11" max="12" placeholder="Enter your number">
-        </label>
-
+      </div>
+        
+        <div class="labels">
+          <label for="number" id="number-label">Age:</label>
+      </div>
+            <input type="number" name="age" id="number" min="1" max="100" placeholder="Enter your age" class="input-field">
+      <div class="labels">
+      <label for="daysTravel" id="travel-label"> How any days a week do you commute?</label>
+      </div>
         <select name="dropdown" id="dropdown">
             <option value="1">1</option>
             <option value="2">2</option>
@@ -31,20 +40,28 @@
             <option value="5">5</option>
         </select>
 
+        <div class="labels">
+          <label for="gender" id="gender-label">Please select your gender:</label>
+      </div>
         <input type="radio" name="gender" id="gender" value="male"> Male <br>
         <input type="radio" name="gender" id="gender" value="female"> Female <br>
         <input type="radio" name="gender" id="gender" value="other"> Other
 
+        <div class="labels">
+          <label for="transport" id="transport-label">Select any methods of transport you use:</label>
+      </div>
         <input type="checkbox" name="transport" id="checkbox" value="Bike">
         <input type="checkbox" name="transport" id="checkbox" value="Car">
         <input type="checkbox" name="transport" id="checkbox" value="Bus">
         <input type="checkbox" name="transport" id="checkbox" value="Train">
         <input type="checkbox" name="transport" id="checkbox" value="Tube">
 
+        <label
         <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Please leave any additional comments you have here..."></textarea>
 
         <input type="submit" value="Submit" id="submit">
 
     </form>
+  </div>
 </body>
 </html>
