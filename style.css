@@ -1,32 +1,51 @@
 body {
-    text-align: center;
-    background-color: #f7bfff;
+    background-color: rgb(118, 192, 182);
     min-width: 320px;
   }
   
-  
-  .survey-container {
-    background-color: white;
-    width: 75%;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 10px;
-    padding-top: 20px;
-  }
-  
-  
-  
-  input, option {
-    margin: 10px;
-  }
-  
-  /* #survey-form {
-    width: 50%;
-    padding: 5% 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 5% auto;
-    justify-content: center;
-    background-color: blue;
-  } */
+.survey-container {
+  background-color: rgb(118, 192, 182);
+  border: 7px solid rgb(0, 50, 187);
+  box-shadow: 6px 6px red;
+  color: rgb(0, 50, 187);
+  width: 65%;
+  max-width: 900px;
+  margin: 0 auto;
+  height: auto;
+  padding: 2rem;
+}
+
+#title {
+  text-align: center;
+}
+
+
+.labels {
+display: inline-block;
+text-align: right;
+width: 40%;
+margin-left: 10%;
+}
+.rightCol {
+margin-left: 50%;
+text-align: left;
+}
+
+form {
+display: block;
+}
+
+.submitButton {
+margin-left: 40%;
+margin-top: 7%;
+border: 3px solid rgb(0, 50, 187);
+color: white;
+background-color: rgb(0, 50, 187);
+width: 20%;
+height: 2rem;
+box-shadow: 3px 3px red;
+}
+
+#description {
+  text-align: center;
+}
